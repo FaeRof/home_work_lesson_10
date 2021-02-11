@@ -57,7 +57,7 @@ public class Launch {
         }
 
         System.out.println();
-        System.out.println("Добаление элемента: ");
+        System.out.println("Добавление элемента: ");
         strings.change(4,"newEgor");
         System.out.println(strings.get(4));
 
@@ -67,7 +67,7 @@ public class Launch {
 
 
         System.out.println();
-        System.out.println("Удаление элементапо индексу: ");
+        System.out.println("Удаление элемента по индексу: ");
         strings.delete(2);
         for (String x : strings) {
             System.out.println(x);
